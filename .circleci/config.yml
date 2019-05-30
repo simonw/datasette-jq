@@ -53,7 +53,7 @@ jobs:
         type: string
         default: latest
     docker:
-      - image: circleci/python:<< parameters.version >>
+      - image: circleci/python:3.6
     steps:
       - checkout
       - restore_cache:
