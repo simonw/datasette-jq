@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 
-VERSION = "0.1"
+VERSION = "0.2"
 
 
 def get_long_description():
@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name="datasette-jq",
-    description="Datasette plugin that adds custom SQL functions for executing jq expressions against JSON values",
+    description="Datasette plugin that adds a custom SQL function for executing jq expressions against JSON values",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Simon Willison",
