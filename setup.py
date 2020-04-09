@@ -23,7 +23,7 @@ setup(
     version=VERSION,
     packages=["datasette_jq"],
     entry_points={"datasette": ["jq = datasette_jq"]},
-    install_requires=["datasette", "pyjq"],
+    install_requires=["datasette", "pyjq", "six"],
     extras_require={
         "test": [
             "pytest"
